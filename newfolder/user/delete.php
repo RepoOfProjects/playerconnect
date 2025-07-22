@@ -1,0 +1,18 @@
+<?php
+include ("connect.php");
+error_reporting(0);
+
+$rn =$_GET['rn'];
+$query="DELETE FROM users where id='$rn'";
+$data=mysqli_query($con,$query);
+
+if($data){
+    echo " <script> alert ('record deleted')</script>";
+    ?>
+    <META HTTP-EQUIV="Refresh" CONTENT="0; URL=http://localhost/pc/userstable.php">
+     <?php
+}
+else{
+    echo "record is not deleted";
+}
+?>

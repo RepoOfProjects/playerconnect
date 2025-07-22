@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  -->
+    <style>
+        /* Reset default margin and padding for all elements */
+        *{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    position: relative;
+    padding-bottom: 5px;
+    min-height:  60px;
+}
+header{
+   text-align: center;
+   background-color: rgb(2, 2, 2);
+   color: #ffffff;
+   padding: 0px 0px; 
+   height: 20px;
+   padding-top: 10px;
+   margin: 0px 0px ;
+   width: 100%;
+   /* position: relative; */
+}
+header h1{
+    font-size: 18px;
+    margin-bottom: 8px;
+    float: left;
+    padding-left: 10px;
+}
+header h6{
+    font-size: 2px;  
+} 
+div.navlist{
+  margin: 0px 2px 10px;
+  margin: 0px 0px ;
+}
+  nav {
+    background-color: #151414;
+    color: #fff;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 1px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+    background-color: rgb(69, 70, 70);
+  }
+  
+  nav a:hover {
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+  } 
+  ul {
+    background-color: #000000;
+    color: #fff;
+    display: inline;
+  }
+  
+ #login{
+  padding-left: 80px;
+  background-color: #f1fc1c;
+  border: none;
+  color: rgb(33, 30, 30);
+  padding: 4px 8px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50px;
+  justify-content: left;
+  
+ } 
+ #login:hover {
+      background-color: aquamarine;
+ }
+
+#signup{
+  padding-left: 100px;
+  background-color: #75cd42;
+  border: none;
+  color: rgb(33, 30, 30);
+  padding: 4px 8px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 8px 1px;
+  border-radius: 50px;
+  align-items: flex-end;
+ } 
+ #signup:hover {
+      background-color: aquamarine;
+ }
+ #logoutbtn{
+  padding-left: 100px;
+  background-color: #fd5050;
+  border: none;
+  color: rgb(33, 30, 30);
+  padding: 4px 8px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 8px 1px;
+  border-radius: 50px;
+  align-items: flex-end;
+ } 
+ #logoutbtn:hover {
+      background-color: aquamarine;
+ }
+
+    </style> 
+</head>
+<body>
+    <header>
+        <h1>  Connect Player</h1>
+        <div class="navlist"> 
+            <nav>
+                <ul>
+                  <li><a href="index.php">Home</a></li>
+                  <li><a href="createTeam.php">Team</a></li>
+                  <li><a href="viewteam.php">team list</a></li>
+                  <li><a href="groundRegistration.php">Ground</a></li>
+                  <li><a href="gameinfo.php">Sports</a></li>
+                  <li><a href="groundbooking.php">groundbooking</a></li>
+                  <li><a href="viewground.php">ground list</a></li>
+                  <li><a href="playerprofile.php">player profiles</a></li>
+                  <!-- <li><a href="playeri.php">my profile</a></li> -->
+                  <li><a href="viewplayerprofile.php">playerlist</a></li>
+                  <li><a href="feedback.php">feedback</a></li>
+                  <li> 
+                </ul>
+                <a href="userlogin.php" target="_blank" id="login" >login</a>
+                <a href="usersignup.php" target="_blank" id="signup">signup</a>
+                <a id="logoutbtn"  href="logout.php" >logout</a>
+              </nav>
+        </div>      
+    </header>
+
+
+   
+
+</body>
+</html>
