@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style1.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <style>
+        footer{
+    text-align: center;
+    background-color: black;
+    padding: 1px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    position:fixed;
+}
+.footerContainer{
+    width: 100%;
+    height: 65%;
+    padding: 1px 1px 1px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none ;
+    padding: 1px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5%;
+}
+.socialIcons a i{
+    font-size: 1em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: black;
+    transition: 0.1s;
+
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 10px 0;
+}
+.footerNav ul{
+      display: flex;
+      justify-content: left;
+}
+.footerNav ul li a{
+    color: white;
+    margin:5px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0;
+    transition: 0.3s;
+
+}
+.footerNav ul li a{
+        opacity: 1;
+ }
+.footerButton{
+        background-color: black;
+        color: aliceblue;
+        padding: 2px;
+        text-align: center;
+        font-size: 9px;
+ }
+ .designer{
+    opacity:0.7;
+    text-decoration: uppercase;
+    letter-spacing: 1px;
+    font-weight: 4px;
+    margin: 0px 5px;
+ }
+     </style>
+</head>
+<body>
+    <footer>
+        <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="index.php" ><i class="fa-solid fa-house"></i></a>
+            <a href="playerprofile.php" ><i class="fa-solid fa-user" style="color: #2edafc;"></i></a>
+            <a href="teams.php" ><i class="fa-solid fa-people-group" style="color: #f4e894;"></i></a>
+            <a href="feedback.php" ><i class="fa-solid fa-comment" style="color: #eab299;"></i></a>
+            <!-- <a href="" ></a> -->
+            
+        </div>
+        </div>
+      
+        <div class="footerButton">
+            <p> copyright &copy;2023; Designed by <span class="designer">SAM</span></p>
+        </div>
+    </footer>
+</body>
+</html>

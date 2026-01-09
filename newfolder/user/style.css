@@ -1,0 +1,33 @@
+body{
+    background-image: url("images/ground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+/* .groundRgs{
+    /* display: flexbox; */
+    /* width: 500px;
+    height: 600px;
+    justify-items: center;
+    background-image: none;
+    background-color: rgb(72, 158, 144);
+    align-items: center;
+    margin: 200px 100px;
+    font-size: large;
+  
+    
+} */
+/* h1{
+    text-align: center;
+} */
+
+/* input{
+    height: 28px;
+    color: black;
+} */ 
+/* input#time{
+    justify-content: center;
+    margin-left: 100px;
+} */
